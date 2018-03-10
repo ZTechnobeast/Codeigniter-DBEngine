@@ -1,0 +1,24 @@
+DBEngine is a library for PHP-framework CodeIgniter.
+This is a library that will automatically create the tables to the server in order to host in production environment
+
+Changelog
+1.0.0
+DBEngine Workflow added
+
+Features
+Its makes works simple for developers
+Its taken care of creating tables with server, so migration will be simple
+It has basic querys inbuild - you can just call them to fetch data
+
+Installing 
+
+Step 1) Upload the files to your application in appropriate directorys
+
+Step 2) Load the library in autoload file in your config folder
+OR
+Step 2) Load the library by calling ->load->lib in your controller & model
+
+Step 3) configer your model file with the table columns, unique ids, table names and etc
+
+The library in a nutshell
+this script to make the migration works simple, by code itself telling what table to be created, will make it simple so when ever the script loaded in the server it will automatically create the tables for that perticular module
